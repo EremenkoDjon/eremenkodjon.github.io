@@ -1,0 +1,16 @@
+.link {
+    text-decoration: none;
+    color: var(--tg-theme-link-color);
+}
+
+.link:hover{
+  color: var(--tg-theme-button-color);
+}
+
+.link:active{
+  color: var(--tg-theme-button-color);
+}
+
+.link:focus{
+  color: var(--tg-theme-button-color);
+}
