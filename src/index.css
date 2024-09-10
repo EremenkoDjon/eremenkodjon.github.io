@@ -1,0 +1,43 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-header-bg-color);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+
+  .App-Loading {
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 99999;
+  }
+
+  #ton-connect-button button {
+    display: flex;
+    color: var(--tg-theme-button-text-color) !important;
+    background-color: var(--tg-theme-button-color) !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .ant-layout-sider-zero-width-trigger {
+    top: 10px !important;
+  }
+  

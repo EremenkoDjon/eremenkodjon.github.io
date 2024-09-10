@@ -1,1 +1,1 @@
-//export * from './WalletPage.tsx';
+export * from './WalletPage.tsx';

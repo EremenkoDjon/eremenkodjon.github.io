@@ -1,1 +1,1 @@
-//export * from './IndexPage.tsx';
+export * from './IndexPage.tsx';
